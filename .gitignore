@@ -1,0 +1,37 @@
+##default file##
+.ini
+.env
+.config
+##ide file##
+.vscode
+.idea
+.project
+##build file##
+HelloGitHub
+*.bat
+*.sh
+bin
+*.exe
+*.dll
+*.so
+*.o
+*.com
+##nas file##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+##other file##
+*.rar
+*.zip
+*.tar.gz
+*.gz
+*.7z
+*.dmg
+*.log
+*.tmp
+*.err

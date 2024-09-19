@@ -1,0 +1,20 @@
+name: Repo HelloGitHub to Gitee
+on:
+  push:
+    branches:
+      - main
+env:
+  REPO_NAME: ${{ github.event.repository.name }}
+
+jobs:
+  mirror-to-gitee:
+    name: Repo HelloGitHub to Gitee
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo HelloGitHub to Gitee.
+        uses: abersheeran/sync-gitee-mirror@v1-beta
+        with:
+          repository: cmche/HelloGitHub
+          username: cmche
+          password: ${{ secrets.GITEE_PASSWORD }}
+
