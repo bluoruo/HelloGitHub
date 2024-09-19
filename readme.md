@@ -145,7 +145,7 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -ldflags "-w -s" .
 
 ##### 修改完成后重启你的浏览器就可以生效了
 
-~~ 本文件每天更新
+~~本文件每天更新~~
 ### 服务器到期暂停更新
 
 ### 注脚解释
